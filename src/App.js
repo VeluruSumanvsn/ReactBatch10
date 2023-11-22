@@ -47,6 +47,8 @@ function App(){ //myApp is a component
     <h9>Line added by Tarun Teja</h9>
     <p>Pull Requests : when a developer has completed a feature or fix, they can submit a pull request to propose the changes other contributors can review the code provide feedback and discuss the proposed changes before merging</p>
     <h10>Line added by Tarun Teja</h10>
+    <p>Git is responsible for everything GitHub-related that happens locally on your computer. You can read documentation that reflects the GitHub product you're currently using. Accounts on GitHub allow you to organize and control access to code. You can find ways to contribute to open source projects on GitHub.com that are relevant to you.</p>
+    <h11>Line added by Tarun Teja</h11>
     </>
   )
 }
