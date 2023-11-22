@@ -23,6 +23,7 @@ function App(){ //myApp is a component
     <h3>Line added by Tarun Teja</h3>
     <p>GitHub is a trusted platform for developers to collaborate, code, and deliver secure software</p>
     <h4>Line added by Tarun Teja</h4>
+    <p>THis is a conflict message</p>
 
     
   
