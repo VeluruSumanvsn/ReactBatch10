@@ -1,10 +1,16 @@
 import React from 'react';
-import Navbar from './Components/Navbar';
+import Navbar from './Components/Navbar/Navbar';
+import Header from './Components/Header/Header';
+import Footer from './Components/Footer/Footer';
 
 function App(){ //myApp is a component
   return(
     <>
     <Navbar />
+    <Header />
+    <Footer />
+
+    <hr/>
     <div>
       <div>Basic Example1fafsdfjdgfjqagjf</div>
       <h2>bfvdjasgfvb</h2>
@@ -18,6 +24,12 @@ function App(){ //myApp is a component
       <p>changes made by lavanya</p>
       <h5>React Developer</h5>
       <h2>UI Training</h2>
+      <h1>Practice</h1>
+      <h4>KANAPARHI DINESH</h4>
+      <h4>bhagya raj</h4>
+      <h5>Hi, Hello,Good morning</h5>
+      <p>hi my name is yamunas</p>
+      
     </div>
     <p>Hi Team Welcome to UI Training</p>
     <h3>Line added by Tarun Teja</h3>
@@ -26,8 +38,6 @@ function App(){ //myApp is a component
     <p>THis is a conflict message</p>
     <p>Great Learning's Blog covers the latest developments and innovations in technology that can be leveraged to build rewarding careers. You'll find career guides, tech tutorials and industry news to keep yourself updated with the fast-changing world of tech and business.</p>
     <h5>Line added by Tarun Teja</h5>
-    <p>Git hub is a web-based platform that provides a version controls, collaboration, software development Features of git hub: Version Control, Repository hosting, collaboration, pull request, issues and bug tracking, branching and merging</p>
-    <h6>Line added by Tarun Teja</h6>
     </>
     
       
