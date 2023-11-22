@@ -9,6 +9,8 @@ function App(){ //myApp is a component
     <Navbar />
     <Header />
     <Footer />
+
+    <hr/>
     <div>
       <div>Basic Example1fafsdfjdgfjqagjf</div>
       <h2>bfvdjasgfvb</h2>
