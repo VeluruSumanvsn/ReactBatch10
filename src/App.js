@@ -9,7 +9,7 @@ function App(){ //myApp is a component
     <Navbar />
     <Header />
     <Footer />
-    {/* <div>
+     <div>
       <div>Basic Example1fafsdfjdgfjqagjf</div>
       <h2>bfvdjasgfvb</h2>
       <h3>dsvmhvbjkdskjvn</h3>
@@ -23,6 +23,7 @@ function App(){ //myApp is a component
       <h5>React Developer</h5>
       <h2>UI Training</h2>
       <h1>Practice</h1>
+      <h2> Bhagya Raj</h2>
     </div>
     <p>Hi Team Welcome to UI Training</p>
     <h3>Line added by Tarun Teja</h3>
@@ -30,7 +31,7 @@ function App(){ //myApp is a component
     <h4>Line added by Tarun Teja</h4>
     <p>THis is a conflict message</p>
     <p>Great Learning's Blog covers the latest developments and innovations in technology that can be leveraged to build rewarding careers. You'll find career guides, tech tutorials and industry news to keep yourself updated with the fast-changing world of tech and business.</p>
-    <h5>Line added by Tarun Teja</h5> */}
+    <h5>Line added by Tarun Teja</h5> 
     </>
     
       
