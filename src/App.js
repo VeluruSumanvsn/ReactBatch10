@@ -43,8 +43,9 @@ function App(){ //myApp is a component
     <h7>Line added by Tarun Teja</h7>
     <p>In Github Codehosting making it easy to share, and collaborate on code, each Repository code can contain the entire history of the project including all changes and branches Multiple contributers can work on the same repository github provides tools for managing access permissions, code reviews, pull requests</p>
     <h8>Line added by Tarun Teja</h8>
-      
-    
+    <p>issues on Github : Github has an issue tracking system that allows users to report bugs suggest features, issues can be assigned to contributors labeled and linked to specific commits or pull requests </p>
+    <h9>Line added by Tarun Teja</h9>
+    </>
   )
 }
 export default App;
