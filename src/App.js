@@ -7,7 +7,7 @@ function App(){ //myApp is a component
       <h2>bfvdjasgfvb</h2>
       <h3>dsvmhvbjkdskjvn</h3>
       <h4>Hello Team</h4>
-      <h4>Hello</h4>
+      <h4>Hey</h4>
       <h2>Line Added by Sujith</h2>
       <p>Hello</p>
     </div>
