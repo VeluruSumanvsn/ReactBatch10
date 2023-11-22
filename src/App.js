@@ -22,6 +22,7 @@ function App(){ //myApp is a component
       <p>changes made by lavanya</p>
       <h5>React Developer</h5>
       <h2>UI Training</h2>
+      <h1>Practice</h1>
     </div>
     <p>Hi Team Welcome to UI Training</p>
     <h3>Line added by Tarun Teja</h3>
