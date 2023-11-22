@@ -1,15 +1,15 @@
 import React from 'react';
 import Navbar from './Components/Navbar';
-import Header from './Header';
-import Footer from './Footer';
+import Header from './Components/Header/Header';
+import Footer from './Components/Footer/Footer';
 
 function App(){ //myApp is a component
   return(
     <>
-    <Header />
     <Navbar />
+    <Header />
     <Footer />
-    <div>
+    {/* <div>
       <div>Basic Example1fafsdfjdgfjqagjf</div>
       <h2>bfvdjasgfvb</h2>
       <h3>dsvmhvbjkdskjvn</h3>
@@ -30,7 +30,7 @@ function App(){ //myApp is a component
     <h4>Line added by Tarun Teja</h4>
     <p>THis is a conflict message</p>
     <p>Great Learning's Blog covers the latest developments and innovations in technology that can be leveraged to build rewarding careers. You'll find career guides, tech tutorials and industry news to keep yourself updated with the fast-changing world of tech and business.</p>
-    <h5>Line added by Tarun Teja</h5>
+    <h5>Line added by Tarun Teja</h5> */}
     </>
     
       
