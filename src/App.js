@@ -38,7 +38,10 @@ function App(){ //myApp is a component
     <p>Great Learning's Blog covers the latest developments and innovations in technology that can be leveraged to build rewarding careers. You'll find career guides, tech tutorials and industry news to keep yourself updated with the fast-changing world of tech and business.</p>
     <h5>Line added by Tarun Teja</h5>
     <p>GitHub is a web-based platform that provides a variety of features and tools for version control, collaboration, and software development Features of github: Version Control, Repository controlling, collabaration, pull requests, issues & bug tracking, branching & merging</p>
-    <h6>Line added by Tarun Teja</h6>  </>
+    <h6>Line added by Tarun Teja</h6>
+    <p>Developers can propose changes to a project by creating pull requests. This allows team members to review the proposed changes, discuss them, and merge them into the main codebase.</p>
+    <h7>Line added by Tarun Teja</h7>
+    </>
     
       
     
