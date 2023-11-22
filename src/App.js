@@ -19,7 +19,9 @@ function App(){ //myApp is a component
       <h5>React Developer</h5>
       <h2>UI Training</h2>
     </div>
-    <p> THis is a conflict message </p>
+    <p>Hi Team Welcome to UI Training</p>
+    <h3>Line added by Tarun Teja</h3>
+
     
   
     </>
