@@ -9,7 +9,7 @@ function App(){ //myApp is a component
     <Navbar />
     <Header />
     <Footer />
-     <div>
+    <div>
       <div>Basic Example1fafsdfjdgfjqagjf</div>
       <h2>bfvdjasgfvb</h2>
       <h3>dsvmhvbjkdskjvn</h3>
@@ -23,7 +23,9 @@ function App(){ //myApp is a component
       <h5>React Developer</h5>
       <h2>UI Training</h2>
       <h1>Practice</h1>
-      <h2> Bhagya Raj</h2>
+      <h4>KANAPARHI DINESH</h4>
+      <h4>bhagya raj</h4>
+
     </div>
     <p>Hi Team Welcome to UI Training</p>
     <h3>Line added by Tarun Teja</h3>
