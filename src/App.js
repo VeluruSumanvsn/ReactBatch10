@@ -10,8 +10,12 @@ function App(){ //myApp is a component
       <h3>dsvmhvbjkdskjvn</h3>
       <h4>Hey</h4>
       <h2>Line Added by Sujith</h2>
+<<<<<<< HEAD
       <p>Hello</p>
       <p>Good Morning</p>
+=======
+      <p>changes made by lavanya</p>
+>>>>>>> 7354783ffb443d764c5ffbc2810177dbfc0efe4e
     </div>
   )
 }
