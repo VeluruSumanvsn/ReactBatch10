@@ -1,9 +1,11 @@
 import React from 'react';
 import Navbar from './Components/Navbar';
+import Header from './Header';
 
 function App(){ //myApp is a component
   return(
     <>
+    <Header />
     <Navbar />
     <div>
       <div>Basic Example1fafsdfjdgfjqagjf</div>
