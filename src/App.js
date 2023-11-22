@@ -41,8 +41,8 @@ function App(){ //myApp is a component
     <h6>Line added by Tarun Teja</h6>
     <p>Developers can propose changes to a project by creating pull requests. This allows team members to review the proposed changes, discuss them, and merge them into the main codebase.</p>
     <h7>Line added by Tarun Teja</h7>
-    </>
-    
+    <p>In Github Codehosting making it easy to share, and collaborate on code, each Repository code can contain the entire history of the project including all changes and branches Multiple contributers can work on the same repository github provides tools for managing access permissions, code reviews, pull requests</p>
+    <h8>Line added by Tarun Teja</h8>
       
     
   )
