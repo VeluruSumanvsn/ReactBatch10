@@ -21,6 +21,8 @@ function App(){ //myApp is a component
     </div>
     <p>Hi Team Welcome to UI Training</p>
     <h3>Line added by Tarun Teja</h3>
+    <p>GitHub is a trusted platform for developers to collaborate, code, and deliver secure software</p>
+    <h4>Line added by Tarun Teja</h4>
 
     
   
