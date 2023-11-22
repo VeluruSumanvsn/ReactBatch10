@@ -45,6 +45,8 @@ function App(){ //myApp is a component
     <h8>Line added by Tarun Teja</h8>
     <p>issues on Github : Github has an issue tracking system that allows users to report bugs suggest features, issues can be assigned to contributors labeled and linked to specific commits or pull requests </p>
     <h9>Line added by Tarun Teja</h9>
+    <p>Pull Requests : when a developer has completed a feature or fix, they can submit a pull request to propose the changes other contributors can review the code provide feedback and discuss the proposed changes before merging</p>
+    <h10>Line added by Tarun Teja</h10>
     </>
   )
 }
