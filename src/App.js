@@ -4,19 +4,37 @@ import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Practice from './Components/Practice/Practice';
 import NewComp from './Components/NewComp/NewComp';
+<<<<<<< HEAD
 import NewComp1 from './Components/NewComp/NewComp1';
+=======
+import Body from './Components/Body/Body'
+
+
+
+
+>>>>>>> aca1631928c3925b3ea9b658324db621569fe198
 function App(){ 
   return(
     <>
-     <Practice />
+     
     <Navbar />
-    <Header />
+    <Body />
+
+    {/* <Header />
     <Footer /> 
+     */}
+
+
+    {/* <hr/> 
     <NewComp />
+<<<<<<< HEAD
     <NewComp1  name="Dinesh" age="18"/>
 
 
     {/* <hr/> 
+=======
+    <Practice />
+>>>>>>> aca1631928c3925b3ea9b658324db621569fe198
     <div>
       <div>Basic Example1fafsdfjdgfjqagjf</div>
       <h2>bfvdjasgfvb</h2>
@@ -35,11 +53,18 @@ function App(){
       
       <p>Hello team good morning</p>
       <h2> adding to Git</h2>
+<<<<<<< HEAD
       <h4>bhagya raj</h4>
       <h5>Hi, Hello,Good morning</h5>
       <p>hi my name is yamunas</p>
       </div> */}
     {/* <p>Hi Team Welcome to UI Training</p>
+=======
+      <h4>bhagya</h4>
+
+    </div>
+    <p>Hi Team Welcome to UI Training</p>
+>>>>>>> aca1631928c3925b3ea9b658324db621569fe198
     <h3>Line added by Tarun Teja</h3>
     <p>GitHub is not a trusted platform for developers to collaborate, code, and deliver secure software</p>
     <h4>Line added by Tarun Teja</h4>
