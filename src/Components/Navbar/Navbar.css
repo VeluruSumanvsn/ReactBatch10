@@ -16,31 +16,49 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 20px;
+  padding: 10px 20px;
 }
 
 .nav-logo img {
-  width: 60px;
+  width: 40px;
+  cursor: pointer;
 }
 
 .nav-content ul {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 40px;
+  color: white;
 }
 
 .nav-content ul li {
-  font-size: 1.3rem;
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 600;
   cursor: pointer;
 }
 
 .nav-search input {
-  width: 300px;
-  height: 30px;
-  padding: 10px;
-  font-size: 1rem;
-  border-radius: 10px;
-  border: 1px solid black;
+  width: 650px;
+  height: 40px;
+  padding: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 50px;
+  border: none;
+  background-color: #2d323c;
+  color: white;
+}
+
+.nav-imgs {
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  flex-direction: row;
+  cursor: pointer;
+}
+.nav-imgs img {
+ 
+  padding: 0 10px;
+  width: 50px;
 }
