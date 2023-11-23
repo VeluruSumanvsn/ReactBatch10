@@ -9,23 +9,24 @@ import Body from './Components/Body/Body'
 
 
 
-function App(){ 
-  return(
+function App()
+  return
     <>
      
     <Navbar />
     <Body />
 
-    {/* <Header />
+     <Header >
     <Footer /> 
-     */}
+     
 
 
-    {/* <hr/> 
+    <hr/> 
     <NewComp />
     <Practice />
     <div>
       <div>Basic Example1fafsdfjdgfjqagjf</div>
+       <div>hello good morning abhi</div>
       <h2>bfvdjasgfvb</h2>
       <h3>dsvmhvbjkdskjvn</h3>
       <h4>Hello Team, Good Morning!</h4>
@@ -65,8 +66,8 @@ function App(){
     <p>Git is responsible for everything GitHub-related that happens locally on your computer. You can read documentation that reflects the GitHub product you're currently using. Accounts on GitHub allow you to organize and control access to code. You can find ways to contribute to open source projects on GitHub.com that are relevant to you.</p>
     <h11>Line added by Tarun Teja</h11>
     <p>Github for collabaration: Forks: users can fork a repository to their own copy. this allows them to make changes independently & propose those changes back to the original repository through a pull request. Repository owners can add collabarators giving them permission to push changes directly to the repository Pull requests facilitate code review, where contributors can comment on specific lines of code, discuss changes, and ensure that the code meets quality standards.</p>
-    <h12>Line added by Tarun Teja</h12> */}
+    <h12>Line added by Tarun Teja</h12> 
     </>
-  )
-}
+  
+
 export default App;
