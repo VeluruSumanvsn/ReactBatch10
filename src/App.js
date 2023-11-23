@@ -4,37 +4,23 @@ import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Practice from './Components/Practice/Practice';
 import NewComp from './Components/NewComp/NewComp';
-<<<<<<< HEAD
 import NewComp1 from './Components/NewComp/NewComp1';
-=======
 import Body from './Components/Body/Body'
 
 
 
 
->>>>>>> aca1631928c3925b3ea9b658324db621569fe198
 function App(){ 
   return(
     <>
      
     <Navbar />
     <Body />
-
-    {/* <Header />
+    <Header />
     <Footer /> 
-     */}
-
-
-    {/* <hr/> 
     <NewComp />
-<<<<<<< HEAD
-    <NewComp1  name="Dinesh" age="18"/>
-
-
-    {/* <hr/> 
-=======
+    <NewComp1  name="Dinesh" company="HCL"/>
     <Practice />
->>>>>>> aca1631928c3925b3ea9b658324db621569fe198
     <div>
       <div>Basic Example1fafsdfjdgfjqagjf</div>
       <h2>bfvdjasgfvb</h2>
@@ -49,22 +35,15 @@ function App(){
       <h5>React Developer</h5>
       <h2>UI Training</h2>
       <h1>Practice</h1>
-      
-      
       <p>Hello team good morning</p>
       <h2> adding to Git</h2>
-<<<<<<< HEAD
       <h4>bhagya raj</h4>
       <h5>Hi, Hello,Good morning</h5>
       <p>hi my name is yamunas</p>
-      </div> */}
-    {/* <p>Hi Team Welcome to UI Training</p>
-=======
-      <h4>bhagya</h4>
-
-    </div>
+      </div> 
+     <p>Hi Team Welcome to UI Training</p>
+      <h4>bhagya</h4>  
     <p>Hi Team Welcome to UI Training</p>
->>>>>>> aca1631928c3925b3ea9b658324db621569fe198
     <h3>Line added by Tarun Teja</h3>
     <p>GitHub is not a trusted platform for developers to collaborate, code, and deliver secure software</p>
     <h4>Line added by Tarun Teja</h4>
@@ -84,8 +63,8 @@ function App(){
     <p>Git is responsible for everything GitHub-related that happens locally on your computer. You can read documentation that reflects the GitHub product you're currently using. Accounts on GitHub allow you to organize and control access to code. You can find ways to contribute to open source projects on GitHub.com that are relevant to you.</p>
     <h11>Line added by Tarun Teja</h11>
     <p>Github for collabaration: Forks: users can fork a repository to their own copy. this allows them to make changes independently & propose those changes back to the original repository through a pull request. Repository owners can add collabarators giving them permission to push changes directly to the repository Pull requests facilitate code review, where contributors can comment on specific lines of code, discuss changes, and ensure that the code meets quality standards.</p>
-    <h12>Line added by Tarun Teja</h12> */}
-    </>
+    <h12>Line added by Tarun Teja</h12> 
+        </>
   )
 }
 export default App;

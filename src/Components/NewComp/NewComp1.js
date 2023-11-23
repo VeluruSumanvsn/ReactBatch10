@@ -8,7 +8,7 @@ function NewComp1 (props){
             <h2> Learning HTML & CSS</h2>
             <h2> Learning JS</h2>
             <h1>{props.name} Learning React</h1>
-            <h1> at {props.age}</h1>
+            <h1> at {props.company}</h1>
         </div>
     )
 }
