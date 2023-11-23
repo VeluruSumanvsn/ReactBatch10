@@ -30,6 +30,7 @@ function App(){
       <h1>Practice</h1>
       <h4>KANAPARHI DINESH</h4>
       <p>Hello team good morning</p>
+      <h2> adding to Git</h2>
       <h4>bhagya raj</h4>
       <h5>Hi, Hello,Good morning</h5>
       <p>hi my name is yamunas</p>
