@@ -2,15 +2,15 @@ import React from 'react';
 import Navbar from './Components/Navbar/Navbar';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
-import Practice from './Practice';
+import Practice from './Components/Practice/Practice';
 
-function App(){ //myApp is a component
+function App(){ 
   return(
     <>
-    <Practice />
+     <Practice />
     <Navbar />
     <Header />
-    <Footer />
+    <Footer /> 
 
 
     <hr/>
@@ -29,6 +29,7 @@ function App(){ //myApp is a component
       <h2>UI Training</h2>
       <h1>Practice</h1>
       <h4>KANAPARHI DINESH</h4>
+      <p>Hello team good morning</p>
       <h4>bhagya raj</h4>
       <h5>Hi, Hello,Good morning</h5>
       <p>hi my name is yamunas</p>
