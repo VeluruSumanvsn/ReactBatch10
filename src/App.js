@@ -44,17 +44,17 @@ function App(){
      <p>Hi Team Welcome to UI Training</p>
       <h4>bhagya</h4>  
     <p>Developers can propose changes to a project by creating pull requests. This allows team members to review the proposed changes, discuss them, and merge them into the main codebase.</p>
-    <h7>Line added by Tarun Teja</h7>
+    <h6>Line added by Tarun Teja</h6>
     <p>In Github Codehosting making it easy to share, and collaborate on code, each Repository code can contain the entire history of the project including all changes and branches Multiple contributers can work on the same repository github provides tools for managing access permissions, code reviews, pull requests</p>
-    <h8>Line added by Tarun Teja</h8>
+    <h4>Line added by Tarun Teja</h4>
     <p>issues on Github : Github has an issue tracking system that allows users to report bugs suggest features, issues can be assigned to contributors labeled and linked to specific commits or pull requests </p>
-    <h9>Line added by Tarun Teja</h9>
+    <h5>Line added by Tarun Teja</h5>
     <p>Pull Requests : when a developer has completed a feature or fix, they can submit a pull request to propose the changes other contributors can review the code provide feedback and discuss the proposed changes before merging</p>
-    <h10>Line added by Tarun Teja</h10>
+    <h3>Line added by Tarun Teja</h3>
     <p>Git is responsible for everything GitHub-related that happens locally on your computer. You can read documentation that reflects the GitHub product you're currently using. Accounts on GitHub allow you to organize and control access to code. You can find ways to contribute to open source projects on GitHub.com that are relevant to you.</p>
-    <h11>Line added by Tarun Teja</h11>
+    <h2>Line added by Tarun Teja</h2>
     <p>Github for collabaration: Forks: users can fork a repository to their own copy. this allows them to make changes independently & propose those changes back to the original repository through a pull request. Repository owners can add collabarators giving them permission to push changes directly to the repository Pull requests facilitate code review, where contributors can comment on specific lines of code, discuss changes, and ensure that the code meets quality standards.</p>
-    <h12>Line added by Tarun Teja</h12> 
+    <h1>Line added by Tarun Teja</h1> 
         </>
   )
 }
