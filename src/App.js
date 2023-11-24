@@ -40,6 +40,7 @@ function App(){
       <h4>bhagya raj</h4>
       <h5>Hi, Hello,Good morning</h5>
       <p>hi my name is yamuna</p>
+      <p>heading</p>
       </div> 
      <p>Hi Team Welcome to UI Training</p>
       <h4>bhagya</h4>  
