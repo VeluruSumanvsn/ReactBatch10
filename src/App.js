@@ -59,6 +59,7 @@ function App(){
     <h12>Line added by Tarun Teja</h12> 
     <h2>what is Github</h2>
     <p>github is a code hosting platform for version control and collabaration </p>
+    <h2>Visual Design and User Experience</h2>
         </>
   )
 }
