@@ -40,7 +40,7 @@ function App(){
       <h2> adding to Git</h2>
       <h4>bhagya raj</h4>
       <h5>Hi, Hello,Good morning</h5>
-      
+      <h1>Practice</h1>
       </div> 
      <p>Hi Team Welcome to UI Training</p>
       <h4>bhagya</h4>  
