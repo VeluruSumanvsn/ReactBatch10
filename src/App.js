@@ -22,6 +22,7 @@ function App(){
     <NewComp1  name="Dinesh" company="HCL"/>
     <Practice />
     <div>
+      <h1>Hey GOod Evening!!</h1>
       <div>Basic Example1fafsdfjdgfjqagjf</div>
       <h2>bfvdjasgfvb</h2>
       <h3>dsvmhvbjkdskjvn</h3>
