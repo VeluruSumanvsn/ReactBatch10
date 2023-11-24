@@ -40,19 +40,10 @@ function App(){
       <h2> adding to Git</h2>
       <h4>bhagya raj</h4>
       <h5>Hi, Hello,Good morning</h5>
-      <p>hi my name is yamunas</p>
+      <p>hi my name is yamuna</p>
       </div> 
      <p>Hi Team Welcome to UI Training</p>
       <h4>bhagya</h4>  
-    <p>Hi Team Welcome to UI Training</p>
-    <h3>Line added by Tarun Teja</h3>
-    <p>GitHub is not a trusted platform for developers to collaborate, code, and deliver secure software</p>
-    <h4>Line added by Tarun Teja</h4>
-    <p>THis is a conflict message</p>
-    <p>Great Learning's Blog covers the latest developments and innovations in technology that can be leveraged to build rewarding careers. You'll find career guides, tech tutorials and industry news to keep yourself updated with the fast-changing world of tech and business.</p>
-    <h5>Line added by Tarun Teja</h5>
-    <p>GitHub is a web-based platform that provides a variety of features and tools for version control, collaboration, and software development Features of github: Version Control, Repository controlling, collabaration, pull requests, issues & bug tracking, branching & merging</p>
-    <h6>Line added by Tarun Teja</h6>
     <p>Developers can propose changes to a project by creating pull requests. This allows team members to review the proposed changes, discuss them, and merge them into the main codebase.</p>
     <h7>Line added by Tarun Teja</h7>
     <p>In Github Codehosting making it easy to share, and collaborate on code, each Repository code can contain the entire history of the project including all changes and branches Multiple contributers can work on the same repository github provides tools for managing access permissions, code reviews, pull requests</p>
@@ -65,6 +56,8 @@ function App(){
     <h11>Line added by Tarun Teja</h11>
     <p>Github for collabaration: Forks: users can fork a repository to their own copy. this allows them to make changes independently & propose those changes back to the original repository through a pull request. Repository owners can add collabarators giving them permission to push changes directly to the repository Pull requests facilitate code review, where contributors can comment on specific lines of code, discuss changes, and ensure that the code meets quality standards.</p>
     <h12>Line added by Tarun Teja</h12> 
+    <h2>what is Github</h2>
+    <p>github is a code hosting platform for version control and collabaration </p>
         </>
   )
 }
