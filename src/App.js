@@ -22,6 +22,7 @@ function App(){
     <NewComp1  name="Dinesh" company="HCL"/>
     <Practice />
     <div>
+      <h1>Hey GOod Evening!!</h1>
       <div>Basic Example1fafsdfjdgfjqagjf</div>
       <h2>bfvdjasgfvb</h2>
       <h3>dsvmhvbjkdskjvn</h3>
@@ -39,7 +40,7 @@ function App(){
       <h2> adding to Git</h2>
       <h4>bhagya raj</h4>
       <h5>Hi, Hello,Good morning</h5>
-      <p>hi my name is yamuna</p>
+      <h1>Practice</h1>
       <p>heading</p>
       </div> 
      <p>Hi Team Welcome to UI Training</p>
