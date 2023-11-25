@@ -16,11 +16,11 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 5px 10px;
 }
 
 .nav-logo img {
-  width: 40px;
+  width: 100px;
   cursor: pointer;
 }
 
@@ -28,7 +28,10 @@ img {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 40px;
+}
+.nav-content ul li:hover {
+  background-color: #e86845;
+  border-radius: 40px;
   color: white;
 }
 
@@ -36,18 +39,18 @@ img {
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
+  padding: 10px 20px;
 }
 
 .nav-search input {
-  width: 650px;
+  width: 600px;
   height: 40px;
   padding: 20px;
   font-size: 0.9rem;
   font-weight: 500;
   border-radius: 50px;
-  border: none;
-  background-color: #2d323c;
-  color: white;
+  border: 1px solid #f84d1f;
+  color: black;
 }
 
 .nav-imgs {
@@ -58,7 +61,6 @@ img {
   cursor: pointer;
 }
 .nav-imgs img {
- 
   padding: 0 10px;
   width: 50px;
 }

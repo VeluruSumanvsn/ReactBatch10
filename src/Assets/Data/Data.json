@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "course_name": "HTML",
+    "category": "UI-Development",
+    "description": "HTML in Depth: The Complete Guide for Beginners",
+    "image_src": "https://cdn.pixabay.com/photo/2015/02/24/02/05/website-647013_1280.jpg",
+    "retail_price": 5999.0
+  },
+  {
+    "id": "2",
+    "course_name": "CSS",
+    "category": "UI-Development",
+    "description": "CSS in Depth: The Complete Guide for Beginners",
+    "image_src": "https://images.unsplash.com/photo-1505685296765-3a2736de412f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "retail_price": 4999.0
+  },
+  {
+    "id": "3",
+    "course_name": "BootStrap",
+    "category": "UI-Development",
+    "description": "BootStrap in Depth: The Complete Guide for Beginners",
+    "image_src": "https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "retail_price": 2999.0
+  },
+  {
+    "id": "4",
+    "course_name": "JavaScript",
+    "category": "UI-Development",
+    "description": "JavaScript in Depth: The Complete Guide for Beginners",
+    "image_src": "https://cdn.pixabay.com/photo/2020/04/30/15/34/code-5113374_1280.jpg",
+    "retail_price": 9999.0
+  },
+  {
+    "id": "5",
+    "course_name": "React JS",
+    "category": "UI-Development",
+    "description": "React in Depth: The Complete Guide for Beginners",
+    "image_src": "https://images.unsplash.com/photo-1581276879432-15e50529f34b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "retail_price": 12999.0
+  }
+]

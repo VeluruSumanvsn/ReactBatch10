@@ -1,0 +1,54 @@
+.hero-component {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.left-content img {
+  width: 650px;
+}
+
+.right-content {
+  text-align: center;
+  line-height: 1.7;
+}
+
+.right-content h1 {
+  color: #e86845;
+  font-size: 3rem;
+}
+
+.right-content p{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.right-content a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.right-content button {
+  font-size: 1.3rem;
+  border-radius: 40px;
+  border: none;
+  background-color: #e86845;
+  padding: 10px 20px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.right-content button:active {
+  box-shadow: none;
+}
+
+.right-content p #logo {
+  font-size: 2.3rem;
+  background: linear-gradient(150deg, #C964F0, #e74c3c, #4384E6);
+  background-clip: text;
+  color: transparent;
+}
