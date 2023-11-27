@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "myreact-app",
-=======
   "name": "my-app",
->>>>>>> 50597eab4dc848c884461eb320296ce2e1bdfe4a
   "version": "0.1.0",
   "private": true,
   "dependencies": {
