@@ -1,18 +1,10 @@
 import React from 'react';
-import Navbar from './Components/Navbar/Navbar';
-import Header from './Components/Header/Header';
-import Footer from './Components/Footer/Footer';
-import Practice from './Components/Practice/Practice';
-import NewComp from './Components/NewComp/NewComp';
 import NewComp1 from './Components/NewComp/NewComp1';
-import Body from './Components/Body/Body'
-
-
-
+import NewComp from './Components/NewComp/NewComp';
 
 function App(){ 
   return(
-    <>
+  <>
      
     <Navbar />
     <Body />
@@ -42,7 +34,7 @@ function App(){
       <h5>Hi, Hello,Good morning</h5>
       <h1>Practice</h1>
       <p>heading</p>
-      </div> 
+     
      <p>Hi Team Welcome to UI Training</p>
       <h4>bhagya</h4>  
     <p>Developers can propose changes to a project by creating pull requests. This allows team members to review the proposed changes, discuss them, and merge them into the main codebase.</p>
@@ -62,7 +54,10 @@ function App(){
     <h2>Visual Design and User Experience</h2>
     <h1>Repository</h1>
     <h1>Reactjs</h1>
-        </>
+        </div>
+     <NewComp1 name="Rohit" heading="India" /> {/*here name and heading are props */ }
+     <NewComp name="Vanaja"/>
+    </>
   )
 }
 export default App;
