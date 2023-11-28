@@ -1,9 +1,16 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 
 function Header(){
     return(
         <div>
-            <h1>created Header component</h1>
+            <ul className="container">
+            <Link to='/navbar'> <li>navbar</li></Link>
+            <Link to='/footer'><li>footer</li></Link>
+            <Link to='/body'><li>body</li></Link>
+            <Link to='/practice'><li>practice</li></Link>
+            <Link to='/list'><li>list</li></Link>
+        </ul> 
         </div>
     )
 }
