@@ -1,16 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import {Link} from 'react-router-dom';
+import "./Header.css"
 
-function Header(){
+const Header = () => {
     return(
-        <div>
-            <ul className="container">
-            <Link to='/navbar'> <li>navbar</li></Link>
-            <Link to='/footer'><li>footer</li></Link>
-            <Link to='/body'><li>body</li></Link>
-            <Link to='/practice'><li>practice</li></Link>
-            <Link to='/list'><li>list</li></Link>
-        </ul> 
+        <div className="container">
+            <ul className="header-list">
+                <li><Link className='text-link' to='/'>Home</Link></li>
+                <li><Link className='text-link' to='/navbar'>Navbar</Link></li>
+                <li><Link className='text-link' to='/footer'>Footer</Link></li>
+                <li><Link className='text-link' to='/body'>Body</Link></li>
+                <li><Link className='text-link' to='/practice'>Practice</Link></li>
+                <li><Link className='text-link' to='/list'>List</Link></li>
+            </ul> 
+            <hr/>
         </div>
     )
 }
