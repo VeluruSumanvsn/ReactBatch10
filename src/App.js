@@ -1,14 +1,8 @@
 import React from 'react';
-import Navbar from './Components/Navbar/Navbar';
-import Header from './Components/Header/Header';
-import Footer from './Components/Footer/Footer';
-import Practice from './Components/Practice/Practice';
+import NewComp1 from './Components/NewComp/NewComp1';
 import NewComp from './Components/NewComp/NewComp';
-import Body from './Components/Body/Body'
 
-
-
-
+<<<<<<< HEAD
 function App()
   return
     <>
@@ -22,9 +16,21 @@ function App()
 
 
     <hr/> 
+=======
+function App(){ 
+  return(
+  <>
+     
+    <Navbar />
+    <Body />
+    <Header />
+    <Footer /> 
+>>>>>>> 5bea3e89a1f984dfe6de543b52ad4604d9bd5ed6
     <NewComp />
+    <NewComp1  name="Dinesh" company="HCL"/>
     <Practice />
     <div>
+      <h1>Hey GOod Evening!!</h1>
       <div>Basic Example1fafsdfjdgfjqagjf</div>
        <div>hello good morning abhi</div>
       <h2>bfvdjasgfvb</h2>
@@ -39,36 +45,38 @@ function App()
       <h5>React Developer</h5>
       <h2>UI Training</h2>
       <h1>Practice</h1>
-      
-      
       <p>Hello team good morning</p>
       <h2> adding to Git</h2>
-      <h4>bhagya</h4>
-      <h5>hello team this is abhiram</h5>
-
-
-    </div>
-    <p>Hi Team Welcome to UI Training</p>
-    <h3>Line added by Tarun Teja</h3>
-    <p>GitHub is not a trusted platform for developers to collaborate, code, and deliver secure software</p>
-    <h4>Line added by Tarun Teja</h4>
-    <p>THis is a conflict message</p>
-    <p>Great Learning's Blog covers the latest developments and innovations in technology that can be leveraged to build rewarding careers. You'll find career guides, tech tutorials and industry news to keep yourself updated with the fast-changing world of tech and business.</p>
-    <h5>Line added by Tarun Teja</h5>
-    <p>GitHub is a web-based platform that provides a variety of features and tools for version control, collaboration, and software development Features of github: Version Control, Repository controlling, collabaration, pull requests, issues & bug tracking, branching & merging</p>
-    <h6>Line added by Tarun Teja</h6>
+      <h4>bhagya raj</h4>
+      <h5>Hi, Hello,Good morning</h5>
+      <h1>Practice</h1>
+      <p>ABHIRAM</p>
+     
+     <p>Hi Team Welcome to UI Training</p>
+      <h4>bhagya</h4>  
     <p>Developers can propose changes to a project by creating pull requests. This allows team members to review the proposed changes, discuss them, and merge them into the main codebase.</p>
-    <h7>Line added by Tarun Teja</h7>
+    <h6>Line added by Tarun Teja</h6>
     <p>In Github Codehosting making it easy to share, and collaborate on code, each Repository code can contain the entire history of the project including all changes and branches Multiple contributers can work on the same repository github provides tools for managing access permissions, code reviews, pull requests</p>
-    <h8>Line added by Tarun Teja</h8>
+    <h4>Line added by Tarun Teja</h4>
     <p>issues on Github : Github has an issue tracking system that allows users to report bugs suggest features, issues can be assigned to contributors labeled and linked to specific commits or pull requests </p>
-    <h9>Line added by Tarun Teja</h9>
+    <h5>Line added by Tarun Teja</h5>
     <p>Pull Requests : when a developer has completed a feature or fix, they can submit a pull request to propose the changes other contributors can review the code provide feedback and discuss the proposed changes before merging</p>
-    <h10>Line added by Tarun Teja</h10>
+    <h3>Line added by Tarun Teja</h3>
     <p>Git is responsible for everything GitHub-related that happens locally on your computer. You can read documentation that reflects the GitHub product you're currently using. Accounts on GitHub allow you to organize and control access to code. You can find ways to contribute to open source projects on GitHub.com that are relevant to you.</p>
-    <h11>Line added by Tarun Teja</h11>
+    <h2>Line added by Tarun Teja</h2>
     <p>Github for collabaration: Forks: users can fork a repository to their own copy. this allows them to make changes independently & propose those changes back to the original repository through a pull request. Repository owners can add collabarators giving them permission to push changes directly to the repository Pull requests facilitate code review, where contributors can comment on specific lines of code, discuss changes, and ensure that the code meets quality standards.</p>
     <h12>Line added by Tarun Teja</h12> 
+<<<<<<< HEAD
+=======
+    <h2>what is Github</h2>
+    <p>github is a code hosting platform for version control and collabaration </p>
+    <h2>Visual Design and User Experience</h2>
+    <h1>Repository</h1>
+    <h1>Reactjs</h1>
+        </div>
+     <NewComp1 name="Rohit" heading="India" /> {/*here name and heading are props */ }
+     <NewComp name="Vanaja"/>
+>>>>>>> 5bea3e89a1f984dfe6de543b52ad4604d9bd5ed6
     </>
   
 
