@@ -2,21 +2,6 @@ import React from 'react';
 import NewComp1 from './Components/NewComp/NewComp1';
 import NewComp from './Components/NewComp/NewComp';
 
-<<<<<<< HEAD
-function App()
-  return
-    <>
-     
-    <Navbar />
-    <Body />
-
-     <Header >
-    <Footer /> 
-     
-
-
-    <hr/> 
-=======
 function App(){ 
   return(
   <>
@@ -25,7 +10,6 @@ function App(){
     <Body />
     <Header />
     <Footer /> 
->>>>>>> 5bea3e89a1f984dfe6de543b52ad4604d9bd5ed6
     <NewComp />
     <NewComp1  name="Dinesh" company="HCL"/>
     <Practice />
@@ -61,9 +45,8 @@ function App(){
     <p>THis is a conflict message</p>
     <p>Great Learning's Blog covers the latest developments and innovations in technology that can be leveraged to build rewarding careers. You'll find career guides, tech tutorials and industry news to keep yourself updated with the fast-changing world of tech and business.</p>
     <h5>Line added by Tarun Teja</h5> 
+    </div>
     </>
-    
-      
     
   )
 }
