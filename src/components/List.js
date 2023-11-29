@@ -1,27 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-
-import Sublist from "./Sublist";
-
-class List extends React.Component {
-    state = {
-        course: "react"
-    };
-
-    render() {
-        return (
-            <div>
-                <ul className="container">
-                    <li>home</li>
-                    <li>about</li>
-                    <li>blog</li>
-                    <li>courses</li>
-                </ul>
-               
-                 { <Sublist name={this.state.course} />}
-            </div>
-        );
-    }
+const List = () =>{
+    return(
+        <>
+        <ul className="container">
+            <li>cnhjvsajck</li>
+        </ul>  
+        </>
+    )
 }
 
 export default List;
