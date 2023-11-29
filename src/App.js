@@ -12,9 +12,9 @@ function App(){
   return(
   <>
     <BrowserRouter>
-    <Header /> {/* sujith */}
+    <Home />
       <Routes>
-        <Route path='/' element={<Home />}/>{/* sujith */}
+        <Route path='/header' element={<Header />}/>{/* sujith */}
         <Route path='/navbar' element={<Navbar />}/>  {/* surendra */}
         <Route path='/footer' element={<Footer />}/>{/*Surekha */}
         <Route path='/body' element={<Body />}/> {/* Jyothi*/}
