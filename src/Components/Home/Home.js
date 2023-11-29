@@ -4,6 +4,7 @@ import "./Home.css"
 
 const Header = () => {
     return(
+        <>
         <div className="container">
             <ul className="header-list">
                 <li><Link className='text-link' to='/'>Home</Link></li>
@@ -16,6 +17,8 @@ const Header = () => {
             </ul> 
             <hr/>
         </div>
-    )
+ 
+        </>
+           )
 }
 export default Header;

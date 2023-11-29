@@ -7,6 +7,7 @@ import Footer from './Components/Footer/Footer';
 import Body from './Components/Body/Body';
 import List from './Components/List';
 import Practice from './Components/Practice/Practice';
+import Homepage from "./Components/Header/Homepage/Homepage"
 
 function App(){ 
   return(
@@ -14,6 +15,7 @@ function App(){
     <BrowserRouter>
     <Home />
       <Routes>
+      <Route path='/' element={<Homepage />}/>{/* sujith */}
         <Route path='/header' element={<Header />}/>{/* sujith */}
         <Route path='/navbar' element={<Navbar />}/>  {/* surendra */}
         <Route path='/footer' element={<Footer />}/>{/*Surekha */}
