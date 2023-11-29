@@ -5,8 +5,8 @@ import Header from './Components/Header/Header';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import Body from './Components/Body/Body';
-import List from './components/List';
-import Gallery from './Components/Practice/Gallery';
+import List from './Components/List';
+import Gallery from './Components/Gallery/Gallery';
 import Homepage from "./Components/Header/Homepage/Homepage"
 
 function App(){ 
