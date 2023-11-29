@@ -8,10 +8,10 @@ function Loginform() {
         <h2>Login</h2>
         <form>
           <label for="username">Username:</label>
-          <input type="text" id="username" name="username" required />
+          <input type="text" id="username" placeholder="abc@gmail.com" name="username" required />
 
           <label for="password">Password:</label>
-          <input type="password" id="password" name="password" required />
+          <input type="password" id="password" placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;" name="password" required />
 
           <button type="submit">Login</button>
         </form>
