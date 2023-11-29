@@ -6,7 +6,7 @@ function Loginform() {
     <>
       <div class="login-container">
         <h2>Login</h2>
-        <form action="/your-login-endpoint" method="post">
+        <form>
           <label for="username">Username:</label>
           <input type="text" id="username" name="username" required />
 
