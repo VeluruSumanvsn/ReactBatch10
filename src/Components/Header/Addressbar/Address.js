@@ -10,8 +10,8 @@ function Address() {
         60Feet Road, R.T.C Depo
         <br />
         India,AndhraPradesh,Ongole-523001, contact-0859-236-652.
+        <p>Copy rights 2023. All Rights Reserverd.</p>
       </div>
-      <p>Copy rights 2023. All Rights Reserverd.</p>
     </>
   );
 }
