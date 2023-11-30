@@ -41,6 +41,7 @@
 
 .cart-icon img{
   width: 45px;
+  cursor: pointer;
 }
 
 .navbar p{
