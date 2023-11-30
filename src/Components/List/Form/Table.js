@@ -1,5 +1,6 @@
 import React from 'react';
 import Cricket from './Cricket';
+import "./Table.css"
 
 function Table(props) {
     let telMarks=Number(props.tel);

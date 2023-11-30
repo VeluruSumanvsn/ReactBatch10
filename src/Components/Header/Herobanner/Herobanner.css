@@ -1,0 +1,14 @@
+.hero-banner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-content img {
+    width: 250px;
+}
+
+.right-content{
+color:#134C6D ;
+
+}

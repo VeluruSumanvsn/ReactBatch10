@@ -1,13 +1,13 @@
 import React from "react";
 import "./Loginbanner.css";
-import Logo from "../Logo/Logo"
+import Herobanner from "../Herobanner/Herobanner"
 import Loginform from "../Loginform/Loginform";
 
-function Loginbanner() {
+const Loginbanner = () => {
   return (
     <>
     <div className="login-banner" id="loginbanner">
-      <Logo />
+      <Herobanner />
       <Loginform />
     </div>
       
