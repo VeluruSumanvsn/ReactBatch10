@@ -14,7 +14,7 @@ return (
           <ul>
             <li><a href='#'>Home</a></li>
             <li><a href="#shop">Shop</a></li>
-            <li><a href='#loginpage'>Login</a></li>
+            <li><a href='#loginbanner'>Login</a></li>
             <li><a href="#newsletter">Newsletter</a></li>
           </ul>
         </div>

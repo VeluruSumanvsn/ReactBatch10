@@ -12,19 +12,10 @@ const Newsletter=() =>{
                Subscribe
             </button>
            </div>
-
-
         </div>
-        
-
-
-
-
     )
-
-
 }
 
 
 
-export default Newsletter
+export default Newsletter;
