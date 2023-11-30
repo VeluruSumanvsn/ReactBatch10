@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Navbar_header.css"
 import logo from "../../../Assets/Nike.png"
-
+import cart_icon from "../../../Assets/carts.png"
 
 const Navbar_header = () => {
 return (
@@ -17,8 +17,15 @@ return (
             <li><a href='#loginbanner'>Login</a></li>
             <li><a href="#newsletter">Newsletter</a></li>
           </ul>
+          <div className='cart-icon'>
+          <img src={cart_icon} alt="cart-icon"/>
+          </div>
+          <p>0</p>
         </div>
-      </div>
+        </div>
+        
+        
+      
     </>
 )
 }
