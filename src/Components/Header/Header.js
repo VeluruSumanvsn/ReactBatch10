@@ -1,17 +1,26 @@
-import React from "react";
-import {Link} from 'react-router-dom';
-
-function Header(){
-    return(
-        <div>
-            <ul className="container">
-            <Link to='/navbar'> <li>navbar</li></Link>
-            <Link to='/footer'><li>footer</li></Link>
-            <Link to='/body'><li>body</li></Link>
-            <Link to='/practice'><li>practice</li></Link>
-            <Link to='/list'><li>list</li></Link>
-        </ul> 
-        </div>
-    )
+import React from 'react';
+import "./Header.css"
+import Banner from './Banner/Banner';
+import Loginbanner from './Loginbanner/Loginbanner';
+import Address from './Addressbar/Address';
+import Newsletter from './Newsletter/Newsletter';
+import Navbar_header from './Navbar_header/Navbar_header';
+import Shop from './Shop/Shop';
+const Header = () => {
+return (
+    <>
+    <Navbar_header />
+    <Banner />
+    <Shop />
+    <Loginbanner />
+    <Newsletter />
+    <Address />
+    </>
+)
 }
+
 export default Header;
+
+
+
+

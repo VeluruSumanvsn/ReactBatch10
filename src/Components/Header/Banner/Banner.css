@@ -1,0 +1,24 @@
+.banner-container {
+    background-color: #121E1E;
+    width: 100%;
+    height: calc(90vh - 60px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px; 
+}
+
+
+.leftcontent img {
+    width: 550px;
+    border-radius: 30px;
+}
+
+.rightcontent h1 {
+    color:#BCB4B2;
+    font-size: 50px;
+}
+.rightcontent h3{
+    color: #ED2827;
+    font-size: 50px;
+}
