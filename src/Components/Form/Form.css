@@ -1,0 +1,40 @@
+.firstDiv{
+    background-image: radial-gradient(hsl(180, 46%, 67%),pink,wheat);
+    border: 2px solid goldenrod;
+    width:80%;
+    height: 100%;
+    padding: 30px;
+    text-align: center;
+    margin: 10px;
+  }
+  .parent{
+    display: flex;
+    justify-content: center;
+    
+  }
+  table{
+    border:3px solid gray;
+    border-collapse: collapse;
+    background-color:lightskyblue;
+  }
+  th,td{
+    width: 150px;
+    height: 40px;
+    border:2px solid whitesmoke;
+    border-collapse: collapse;
+  }
+  caption{
+    background-color:white;
+    color:darkorange;
+    font-size: 2rem;
+    text-align: center;
+  }
+  th{
+    color:red;
+  }
+  .subject{
+    color: black;
+  }
+  .remark{
+    color: purple;
+  }
