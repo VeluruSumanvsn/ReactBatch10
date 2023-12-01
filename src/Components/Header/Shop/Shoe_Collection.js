@@ -8,7 +8,7 @@ const Shoecollection = (props) => {
     <>
     <div className="shoecol-div">
       <div className="store-image">
-        <img src={props.image} alt="image" />
+        <img src={props.image} alt="shoes" />
         <p>{props.name}</p>
         <div className="item-prices">
           <p>&#8377;<span>{props.new_price}</span></p>
