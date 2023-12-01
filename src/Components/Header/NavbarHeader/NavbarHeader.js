@@ -1,10 +1,10 @@
 import React from "react";
-import "./Navbar_header.css";
+import "./NavbarHeader.css";
 import logo from "../../../Assets/Nike.png";
 import cart_icon from "../../../Assets/carts.png";
 import { Link } from "react-router-dom";
 
-const Navbar_header = () => {
+const NavbarHeader = () => {
   return (
     <>
       <div className="navbar">
@@ -38,4 +38,4 @@ const Navbar_header = () => {
   );
 };
 
-export default Navbar_header;
+export default NavbarHeader;

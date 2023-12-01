@@ -4,7 +4,7 @@ import Banner from './Banner/Banner';
 import Loginbanner from './Loginbanner/Loginbanner';
 import Address from './Addressbar/Address';
 import Newsletter from './Newsletter/Newsletter';
-import Navbar_header from './Navbar_header/Navbar_header';
+import NavbarHeader from './NavbarHeader/NavbarHeader';
 import Shop from './Shop/Shop';
 import Logo from "./Logo/Logo";
 
@@ -13,7 +13,7 @@ import Logo from "./Logo/Logo";
 const Header = () => {
 return (
     <>
-    <Navbar_header />
+    <NavbarHeader />
     <Banner />
     <Shop />
     <Loginbanner />
