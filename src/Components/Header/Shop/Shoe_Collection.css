@@ -1,0 +1,34 @@
+.addcart button{
+  padding: 10px;
+  color: white;
+  background-color: #134c6d;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: bold;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.addcart button:active{
+  box-shadow: none;
+}
+
+.addcart{
+  margin-top: 15px;
+}
+
+.shoecol-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.store-image>p{
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.item-prices p span{
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: green;
+}

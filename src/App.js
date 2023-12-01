@@ -8,6 +8,7 @@ import Body from './Components/Body/Body';
 import List from './Components/List/List';
 import Gallery from './Components/Gallery/Gallery';
 import Homepage from "./Components/Header/Homepage/Homepage"
+import Cart from './Components/Header/Cart/Cart';
 
 function App(){ 
   return(
@@ -22,6 +23,7 @@ function App(){
         <Route path='/body' element={<Body />}/> {/* Jyothi*/}
         <Route path='/gallery' element={<Gallery />}/> {/* Sekhar */}
         <Route path='/list' element={<List />}/>{/* Vanaja */}
+        <Route path="/cart" element={<Cart />} />
       </Routes>
     </BrowserRouter>
   </>

@@ -1,10 +1,18 @@
 .shop {
   width: 100%;
   text-align: center;
+  margin-bottom: 50px;
 }
-
-.shop h1{
+.shop hr {
+  width: 80%;
+  height: 3px;
+  margin: auto;
+  margin-bottom: 15px;
+  color: #134c6d;
+}
+.shop h1 {
   font-size: 3rem;
+  padding: 10px;
 }
 .collections {
   width: 100%;
@@ -13,7 +21,6 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-
 }
 
 .store-image:hover {
@@ -22,8 +29,23 @@
   transition: 0.6s;
 }
 
-.store-image img{
+.store-image img {
   width: 200px;
   height: 300px;
-  
+}
+
+.cart-button {
+  margin-top: 50px;
+}
+
+.cart-button button {
+  width: 200px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  background-color: #134c6d;
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
 }
