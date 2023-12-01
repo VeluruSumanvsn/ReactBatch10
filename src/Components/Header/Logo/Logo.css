@@ -1,0 +1,16 @@
+.middle-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d1cbd7;
+  border-radius: 20px;
+}
+.middle-content img {
+  width: 100px;
+  border-radius: 20px;
+  gap: 40px;
+}
+.middle-content h3 {
+  color: #134c6d;
+  column-gap: 20px;
+}

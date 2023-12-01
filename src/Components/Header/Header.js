@@ -6,6 +6,7 @@ import Address from './Addressbar/Address';
 import Newsletter from './Newsletter/Newsletter';
 import Navbar_header from './Navbar_header/Navbar_header';
 import Shop from './Shop/Shop';
+import Logo from "./Logo/Logo";
 const Header = () => {
 return (
     <>
@@ -14,6 +15,7 @@ return (
     <Shop />
     <Loginbanner />
     <Newsletter />
+    <Logo />
     <Address />
     </>
 )
