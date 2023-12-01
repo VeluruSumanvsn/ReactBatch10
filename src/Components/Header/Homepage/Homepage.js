@@ -7,7 +7,7 @@ const Homepage = () => {
 return (
   <>
     <div className='page-content'>
-      <img src={home_page} alt='homepage image'/>
+      <img src={home_page} alt='Please Select a Component To Get Output'/>
     </div>
   </>
 )
