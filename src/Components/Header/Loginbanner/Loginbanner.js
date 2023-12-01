@@ -1,14 +1,16 @@
 import React from "react";
 import "./Loginbanner.css";
 import Herobanner from "../Herobanner/Herobanner"
-import Loginform from "../Loginform/Loginform";
+import LoginSignup from "../LoginSignup/LoginSignup";
+
+
 
 const Loginbanner = () => {
   return (
     <>
     <div className="login-banner" id="loginbanner">
       <Herobanner />
-      <Loginform />
+      <LoginSignup />
     </div>
       
 
