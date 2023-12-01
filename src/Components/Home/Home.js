@@ -15,10 +15,8 @@ const Header = () => {
                 <li><Link className='text-link' to='/gallery'>Gallery</Link></li>
                 <li><Link className='text-link' to='/list'>List</Link></li>
             </ul> 
-            <hr/>
         </div>
- 
         </>
-           )
+  )
 }
 export default Header;

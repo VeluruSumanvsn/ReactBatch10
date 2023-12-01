@@ -49,3 +49,10 @@
   border-radius: 40px;
   cursor: pointer;
 }
+
+
+.shoecolmap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

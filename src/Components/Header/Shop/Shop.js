@@ -1,34 +1,36 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+
 import Shoecollection from "./Shoe_Collection";
 import data_product from "../../../Assets/shoe_data";
 import "./Shop.css";
 
-
-const Shop = () => {
+const Shop = ({handleClick, setShow}) => {
+  
   return (
     <div className="shop" id="shop">
       <h1>SHOP</h1>
       <hr />
       <div className="collections">
-        {data_product.map((item, i) => {
-          console.log(`${item.new_price}`);
+        {data_product.map((item) => {
           return (
-            <Shoecollection
-              key={item.id}
-              image={item.image}
-              name={item.name}
-              new_price={item.new_price}
-            />
+            <div className="shoecolmap">
+              <Shoecollection
+                key={item.id}
+                image={item.image}
+                name={item.name}
+                new_price={item.new_price}
+              />
+              <div className="addcart">
+                <button onClick={()=>handleClick(item)}>Add To Cart</button>
+              </div>
+            </div>
           );
         })}
       </div>
       <div className="cart-button">
-      <Link to="/cart">
-        <button>Go to Cart</button>
-      </Link>
+          <button onClick={()=>{setShow(false)}}>Go to Cart</button>
       </div>
-    </div> 
+    </div>
   );
 };
 
