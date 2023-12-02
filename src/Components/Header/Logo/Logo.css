@@ -1,0 +1,17 @@
+.middle-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d1cbd7;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.middle-content h3{
+  color: #134C6D;
+  font-size: 2.5rem;
+}
+.middle-content h4{
+  color: #134C6D;
+  font-size: 2rem;
+}

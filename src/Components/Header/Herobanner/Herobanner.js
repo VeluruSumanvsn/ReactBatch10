@@ -7,7 +7,7 @@ const Herobanner = () => {
     <>
       <div className="hero-banner">
         <div className="left-content">
-          <img src={hero_image} alt="hero-image" />
+          <img src={hero_image} alt="Banner where everything is displayed" />
         </div>
         <div className="right-content">
           <h1>Login to get Exclusive Deals</h1>

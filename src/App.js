@@ -23,7 +23,6 @@ function App(){
         <Route path='/body' element={<Body />}/> {/* Jyothi*/}
         <Route path='/gallery' element={<Gallery />}/> {/* Sekhar */}
         <Route path='/list' element={<List />}/>{/* Vanaja */}
-        <Route path="/cart" element={<Cart />} />
       </Routes>
     </BrowserRouter>
   </>

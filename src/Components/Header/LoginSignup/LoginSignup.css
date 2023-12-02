@@ -1,0 +1,34 @@
+.login-buttons button {
+  padding: 10px;
+  color: white;
+  background-color: #134c6d;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+  width: 180px;
+  height: 50px;
+}
+.login-buttons p {
+  font-weight: bold;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.login-buttons button:active {
+  box-shadow: none;
+}
+.login-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div hr {
+  width: 60%;
+  height: 3px;
+  margin-bottom: 10px;
+}
