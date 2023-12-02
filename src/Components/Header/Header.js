@@ -8,7 +8,7 @@ import NavbarHeader from './NavbarHeader/NavbarHeader';
 import Shop from './Shop/Shop';
 import Logo from "./Logo/Logo";
 import Cart from './Cart/Cart';
-
+import "bootstrap/dist/css/bootstrap.min.css"
 
 const Header = () => {
 

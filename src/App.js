@@ -8,7 +8,6 @@ import Body from './Components/Body/Body';
 import List from './Components/List/List';
 import Gallery from './Components/Gallery/Gallery';
 import Homepage from "./Components/Header/Homepage/Homepage"
-import Cart from './Components/Header/Cart/Cart';
 
 function App(){ 
   return(
