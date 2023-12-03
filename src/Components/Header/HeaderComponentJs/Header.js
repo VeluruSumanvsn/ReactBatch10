@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import "./Header.css"
-import Banner from './Banner/Banner';
-import Loginbanner from './Loginbanner/Loginbanner';
-import Address from './Addressbar/Address';
-import Newsletter from './Newsletter/Newsletter';
-import NavbarHeader from './NavbarHeader/NavbarHeader';
-import Shop from './Shop/Shop';
-import Logo from "./Logo/Logo";
-import Cart from './Cart/Cart';
+import "../HeaderComponentCSS/Header.css"
+import Banner from '../HeaderComponentJs/Banner';
+import Loginbanner from '../HeaderComponentJs/Loginbanner';
+import Address from '../HeaderComponentJs/Address';
+import Newsletter from '../HeaderComponentJs/Newsletter';
+import NavbarHeader from '../HeaderComponentJs/NavbarHeader';
+import Shop from '../HeaderComponentJs/Shop';
+import Logo from "../HeaderComponentJs/Logo";
+import Cart from '../HeaderComponentJs/Cart';
 import "bootstrap/dist/css/bootstrap.min.css"
 
 const Header = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Homepage.css"
+import "../HeaderComponentCSS/Homepage.css"
 import home_page from "../../../Assets/1.png"
 
 

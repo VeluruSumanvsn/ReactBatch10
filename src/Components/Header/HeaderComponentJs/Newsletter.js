@@ -1,5 +1,5 @@
 import React from "react";
-// import "./Newsletter.css";
+import "../HeaderComponentCSS/Newsletter.css";
 
 const Newsletter = () => {
   return (

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Cart.css";
+import "../HeaderComponentCSS/Cart.css";
 
 
 
