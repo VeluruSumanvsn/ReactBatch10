@@ -9,7 +9,9 @@ const Navbar = () => {
     .then((json) =>setData(json))
   },[]);
 
-  // useEffect(() =>{  // },[])
+  // useEffect(() =>{
+
+  // },[]); --> compopnent
   return (
     <>
    <div>Data Grid List</div>
