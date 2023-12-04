@@ -1,5 +1,5 @@
 import React from "react";
-import "./NavbarHeader.css";
+import "../HeaderComponentCSS/NavbarHeader.css";
 import logo from "../../../Assets/Nike.png";
 import cart_icon from "../../../Assets/carts.png";
 

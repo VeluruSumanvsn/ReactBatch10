@@ -1,5 +1,5 @@
 import React from "react";
-import "./Logo.css";
+import "../HeaderComponentCSS/Logo.css";
 
 
 const Logo = () => {

@@ -13,22 +13,22 @@ function Practice() {
       <h1 style={{ textAlign: "center" }}>Photo gallery</h1>
       <div style={{ display: "flex", gap: "20px" }}>
         <div className="frame">
-          <img src={img1} />
+          <img src={img1} alt="cricket1"/>
         </div>
         <div className="frame">
-          <img src={img2} />
+          <img src={img2} alt="cricket2"/>
         </div>
         <div className="frame">
-          <img src={img3} />
+          <img src={img3} alt="cricket3"/>
         </div>{" "}
         <div className="frame">
-          <img src={img4} />
+          <img src={img4} alt="cricket4"/>
         </div>{" "}
         <div className="frame">
-          <img src={img5} />
+          <img src={img5} alt="cricket5"/>
         </div>{" "}
         <div className="frame">
-          <img src={img6} />
+          <img src={img6} alt="cricket6"/>
         </div>
       </div>
     </>

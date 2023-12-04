@@ -3,11 +3,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 15px;
+  height: 70px;
 }
 
 .logo img {
   width: 80px;
+  padding-left: 20px ;
 }
 
 .navbar-content ul {
@@ -51,7 +52,7 @@
   position: relative;
   width: 25px;
   height: 25px;
-  top: -20px;
+  top: -10px;
   left: -30px;
   text-align: center;
   font-size: 17px;

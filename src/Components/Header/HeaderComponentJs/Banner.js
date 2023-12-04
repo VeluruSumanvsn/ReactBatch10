@@ -1,6 +1,6 @@
 import React from "react";
 import banner_image from "../../../Assets/Nike(caption).jpg";
-import "./Banner.css";
+import "../HeaderComponentCSS/Banner.css";
 
 const Banner = () => {
   return (
