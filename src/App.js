@@ -8,6 +8,7 @@ import Body from './Components/Body/Body';
 import List from './Components/List/List';
 import Gallery from './Components/Gallery/Gallery';
 import Homepage from "./Components/Header/HeaderComponentJs/Homepage"
+import BillingForm from './Components/Header/HeaderComponentJs/Billing';
 
 function App(){ 
   return(
@@ -22,6 +23,7 @@ function App(){
         <Route path='/body' element={<Body />}/> {/* Jyothi*/}
         <Route path='/gallery' element={<Gallery />}/> {/* Sekhar */}
         <Route path='/list' element={<List />}/>{/* Vanaja */}
+        <Route path='/billing' element={<BillingForm />}/>{/* sujith */}
       </Routes>
     </BrowserRouter>
   </>
