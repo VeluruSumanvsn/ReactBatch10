@@ -9,6 +9,7 @@ import Shop from '../HeaderComponentJs/Shop';
 import Logo from "../HeaderComponentJs/Logo";
 import Cart from '../HeaderComponentJs/Cart';
 import "bootstrap/dist/css/bootstrap.min.css"
+import  BillingForm from '../HeaderComponentJs/Billing'
 
 const Header = () => {
 
@@ -51,6 +52,7 @@ return (
     <Newsletter />
     <Logo />
     <Address />
+    <BillingForm />
     </>
 )
 }
