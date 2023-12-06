@@ -11,6 +11,7 @@
   color: #134c6d;
 }
 .shop h1 {
+  color: white;
   font-size: 3rem;
   padding: 10px;
 }
@@ -21,6 +22,9 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  z-index: 1;
+  position: absolute;
+  top: 740px;
 }
 
 .store-image:hover {
@@ -38,7 +42,6 @@
   margin-top: 50px;
 }
 
-
 .cart-button button {
   width: 200px;
   font-size: 1.6rem;
@@ -51,13 +54,25 @@
   cursor: pointer;
 }
 
-
 .shoecolmap {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.addcart button{
+.addcart button {
   margin-top: -20px;
+}
+
+.big-words h1 {
+  position: relative;
+  display: grid;
+  place-items: center;
+  font-size: 500px;
+  color: rgb(0, 140, 255);
+  opacity: 0.5;
+  z-index: -10;
+  top: -140px;
+  height: 100vh;
+  margin-bottom: -140px;
 }

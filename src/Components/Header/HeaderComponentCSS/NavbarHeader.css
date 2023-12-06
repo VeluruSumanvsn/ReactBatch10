@@ -4,11 +4,14 @@
   justify-content: space-between;
   align-items: center;
   height: 70px;
+  background-color: #1A1C1E;
+  padding-top: 10px;
 }
 
 .logo img {
-  width: 80px;
-  padding-left: 20px ;
+  margin-left: 10px;
+  width: 55px;
+  border-radius: 1000px;
 }
 
 .navbar-content ul {
@@ -25,19 +28,17 @@
 
 .navbar-content ul li a:hover {
   background-color: gray;
-  color: white;
 }
 
 .navbar-content ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .navbar-content{
   display: flex;
   gap: 10px;
   align-items: center;
-  
 }
 
 .cart-icon img{
@@ -57,5 +58,4 @@
   text-align: center;
   font-size: 17px;
   font-weight: bold;
-
 }

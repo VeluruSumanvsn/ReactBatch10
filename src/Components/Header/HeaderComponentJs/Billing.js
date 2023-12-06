@@ -10,6 +10,7 @@ const BillingForm = () => {
     state: "",
     pincode: "",
   };
+  
   const [formData, setFormData] = useState(initialFormData);
 
   const handleSubmit = (e) => {
@@ -23,8 +24,9 @@ const BillingForm = () => {
     newData[e.target.id] = e.target.value;
     setFormData(newData);
   };
+
   return (
-    <>
+    <div className="billing-root" style={{backgroundColor: "#1A1C1E"}}>
       <div className="billing-container">
         <form className="billing-form" onSubmit={(e) => handleSubmit(e)}>
           <label for="name">Name</label>
@@ -92,7 +94,7 @@ const BillingForm = () => {
           </button>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

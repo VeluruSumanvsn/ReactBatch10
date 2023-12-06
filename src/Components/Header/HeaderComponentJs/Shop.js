@@ -1,5 +1,4 @@
 import React from "react";
-
 import Shoecollection from "../HeaderComponentJs/Shoe_Collection";
 import data_product from "../../../Assets/shoe_data";
 import "../HeaderComponentCSS/Shop.css";
@@ -7,9 +6,15 @@ import "../HeaderComponentCSS/Shop.css";
 const Shop = ({handleClick, setShow}) => {
   
   return (
+    <>
+    
     <div className="shop" id="shop">
       <h1>SHOP</h1>
-      <hr />
+      <hr />   
+      <div className="big-words">
+      <h1>NIKE</h1>
+      <h1>NIKE</h1>
+      </div>
       <div className="collections">
         {data_product.map((item) => {
           return (
@@ -31,6 +36,10 @@ const Shop = ({handleClick, setShow}) => {
           <button onClick={()=>{setShow(false)}}>Go to Cart</button>
       </div>
     </div>
+    
+    
+    </>
+    
   );
 };
 

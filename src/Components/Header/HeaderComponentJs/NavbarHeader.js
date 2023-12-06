@@ -1,6 +1,6 @@
 import React from "react";
 import "../HeaderComponentCSS/NavbarHeader.css";
-import logo from "../../../Assets/Nike.png";
+import logo from "../../../Assets/nikelogo.jpg";
 import cart_icon from "../../../Assets/carts.png";
 
 

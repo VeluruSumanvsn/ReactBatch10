@@ -9,14 +9,12 @@
     width: 300px;
 }
 
-.right-content{
-    color:#134C6D ;
-}
-
 .right-content h1{
-    font-size: 2.5rem;
+    color: white;
+    font-size: 2.6rem;
 }
 
 .right-content h3{
+    color:#5d8eab ;
     font-size: 1.5rem;
 }
