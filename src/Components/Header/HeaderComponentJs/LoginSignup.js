@@ -8,7 +8,7 @@ const LoginSignup = () => {
 
   return (
     <>
-      <div>
+      <div className="login-signup">
       {showLogin ? <Login /> : <Signup />}
          <div className="login-buttons">
             <button onClick={() => setShowLogin(true)}>Login</button>

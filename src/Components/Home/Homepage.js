@@ -1,6 +1,6 @@
 import React from 'react';
-import "../HeaderComponentCSS/Homepage.css"
-import home_page from "../../../Assets/1.png"
+import "./Homepage.css"
+import home_page from "../../Assets/1.png"
 
 
 const Homepage = () => {

@@ -7,7 +7,7 @@ import Footer from './Components/Footer/Footer';
 import Body from './Components/Body/Body';
 import List from './Components/List/List';
 import Gallery from './Components/Gallery/Gallery';
-import Homepage from "./Components/Header/HeaderComponentJs/Homepage"
+import Homepage from "./Components/Home/Homepage"
 import BillingForm from './Components/Header/HeaderComponentJs/Billing';
 
 function App(){ 

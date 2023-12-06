@@ -11,3 +11,13 @@
     height: inherit;
     object-fit: cover;
   }
+
+
+
+  @media (max-width: 600px) {
+    .page-content{
+      display: none;
+    }
+
+
+  }

@@ -80,3 +80,20 @@
   letter-spacing: 10px;
   line-height: 1;
 }
+
+
+
+@media (width <= 600px) {
+  .big-words{
+    display: none;
+  }
+  .collections {
+    position: static;
+    top: auto;
+    left: auto;
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+  }
+}
