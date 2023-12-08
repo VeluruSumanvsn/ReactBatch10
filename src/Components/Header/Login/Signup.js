@@ -1,5 +1,5 @@
 import React from "react";
-import "../HeaderComponentCSS/Login.css";
+import "./Login.css";
 
 function Signup() {
   return (

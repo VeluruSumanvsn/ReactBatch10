@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import "../HeaderComponentCSS/Cart.css";
+import "./Cart.css";
 import { Link } from "react-router-dom";
-import BillingForm from "../HeaderComponentJs/Billing";
+
 
 
 

@@ -1,7 +1,7 @@
 import React from "react";
-import "../HeaderComponentCSS/Loginbanner.css";
-import Herobanner from "../HeaderComponentJs/Herobanner"
-import LoginSignup from "../HeaderComponentJs/LoginSignup";
+import "./Loginbanner.css";
+import Herobanner from "../Herobanner/Herobanner"
+import LoginSignup from "./LoginSignup";
 
 
 

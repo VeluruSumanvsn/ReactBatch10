@@ -1,5 +1,5 @@
 import React from "react";
-import "../HeaderComponentCSS/Address.css";
+import "./Address.css";
 
 function Address() {
   return (

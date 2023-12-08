@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Components/Home/Home';
-import Header from './Components/Header/HeaderComponentJs/Header';
+import Header from './Components/Header/Header';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import Body from './Components/Body/Body';
 import List from './Components/List/List';
 import Gallery from './Components/Gallery/Gallery';
 import Homepage from "./Components/Home/Homepage"
-import BillingForm from './Components/Header/HeaderComponentJs/Billing';
+import BillingForm from './Components/Header/Billing/Billing';
 
 function App(){ 
   return(

@@ -1,7 +1,7 @@
 import React from "react";
-import Shoecollection from "../HeaderComponentJs/Shoe_Collection";
+import Shoecollection from "./Shoe_Collection";
 import data_product from "../../../Assets/shoe_data";
-import "../HeaderComponentCSS/Shop.css";
+import "./Shop.css";
 
 const Shop = ({handleClick, setShow}) => {
   
