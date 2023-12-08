@@ -23,11 +23,26 @@
     font-size: 60px;
 }
 
-@media (width <= 600) {
+@media (width <= 600px) {
     .banner-container{
         width: 100%;
+        height: 100vh;
         display: flex;
         flex-direction: column;
-        background-color: red;
+        justify-content: space-evenly;
     }
+    .rightcontent{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        
+    }
+    .rightcontent h1{
+        font-size: 5.5rem;
+    }
+    .rightcontent h3{
+        font-size: 4rem;
+    }
+
+   
 }

@@ -18,3 +18,10 @@
     color:#5d8eab ;
     font-size: 1.5rem;
 }
+
+
+@media (width <= 600px) {
+    .hero-banner{
+        flex-direction: column;
+    }
+}

@@ -33,7 +33,7 @@ const NavbarHeader = ({size, setShow}) => {
           <p>{size}</p>
         </div>
       </div>
-    </>
+      </>
   );
 };
 

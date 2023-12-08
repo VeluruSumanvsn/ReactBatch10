@@ -1,5 +1,4 @@
 import React from "react";
-import "./Shop.css";
 import "./Shoe_Collection.css";
 
 const Shoecollection = (props) => {

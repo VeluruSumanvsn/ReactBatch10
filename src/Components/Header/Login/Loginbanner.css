@@ -5,3 +5,9 @@
   padding: 10px;
   height: 100vh;
 }
+
+@media (width <= 600px) {
+  .login-banner{
+    flex-direction: column;
+  }
+}

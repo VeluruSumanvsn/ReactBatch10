@@ -87,13 +87,15 @@
   .big-words{
     display: none;
   }
+  .shop h1{
+    font-size: 5rem;
+  }
   .collections {
     position: static;
     top: auto;
     left: auto;
     margin: auto;
     width: 100%;
-    height: 100vh;
     z-index: 0;
   }
 }

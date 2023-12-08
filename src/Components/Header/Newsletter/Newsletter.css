@@ -36,3 +36,13 @@
   border: none;
   cursor: pointer;
 }
+
+@media (width <= 600px) {
+  .input-content{
+    flex-direction: column;
+  }
+  .input-content input{
+    width: 500px;
+    margin-bottom: 10px;
+  }
+}
