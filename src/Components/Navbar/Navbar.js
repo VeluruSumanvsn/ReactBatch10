@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const[data, setData] = useState([]);
 
@@ -14,6 +14,8 @@ const Navbar = () => {
   // },[]); --> compopnent
   return (
     <>
+    {/* Keep this home button some where in your page to come back to home page!! */}
+    <Link className='text-link' to='/'>Home</Link>
    <div>Data Grid List</div>
    {data.length > 0 ? 
    <div className="row m-0 p-0">

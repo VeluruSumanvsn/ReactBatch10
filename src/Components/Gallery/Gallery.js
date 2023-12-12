@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import img1 from "../../Images/img1.avif";
 import img2 from "../../Images/img2.jpg";
@@ -10,6 +11,8 @@ import img6 from "../../Images/img6.jpeg";
 function Practice() {
   return (
     <>
+    {/* Keep this home button some where in your page to come back to home page!! */}
+    <Link className='text-link' to='/'>Home</Link>
       <h1 style={{ textAlign: "center" }}>Photo gallery</h1>
       <div style={{ display: "flex", gap: "20px" }}>
         <div className="frame">
