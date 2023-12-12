@@ -14,9 +14,9 @@ function App(){
   return(
   <>
     <BrowserRouter>
-    <Home />
+    
       <Routes>
-      <Route path='/' element={<Homepage />}/>{/* sujith */}
+      <Route path='/' element={<Home />}/>{/* sujith */}
         <Route path='/header' element={<Header />}/>{/* sujith */}
         <Route path='/navbar' element={<Navbar />}/>  {/* surendra */}
         <Route path='/footer' element={<Footer />}/>{/*Surekha */}

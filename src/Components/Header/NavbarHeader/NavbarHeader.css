@@ -10,8 +10,8 @@
 
 .logo img {
   margin-left: 10px;
-  width: 55px;
-  border-radius: 1000px;
+  width: 70px;
+  cursor: pointer;
 }
 
 .navbar-content ul {

@@ -1,8 +1,8 @@
 import React from "react";
 import "./NavbarHeader.css";
-import logo from "../../../Assets/nikelogo.jpg";
+import logo from "../../../Assets/Nike(white).png";
 import cart_icon from "../../../Assets/carts.png";
-
+import { Link } from "react-router-dom";
 
 const NavbarHeader = ({size, setShow}) => {
 
@@ -10,12 +10,12 @@ const NavbarHeader = ({size, setShow}) => {
     <>
       <div className="navbar" id="navbar">
         <div className="logo">
-          <img src={logo} alt="logo" />
+          <a href="#navbar"><img src={logo} alt="logo" /></a>
         </div>
         <div className="navbar-content">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <Link className='text-link' to='/'>Home</Link>
             </li>
             <li>
               <a href="#shop" onClick={()=>{setShow(true)}}>Shop</a>
