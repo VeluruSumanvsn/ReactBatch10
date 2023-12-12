@@ -24,11 +24,11 @@
   text-align: center;
   font-weight: bold;
   border-radius: 50px;
+  cursor: pointer;
 }
 .text-link {
   text-decoration: none;
-  color: white;
-  cursor: pointer;
+  color: #37E4DE;
 }
 
 .components img{
