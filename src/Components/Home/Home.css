@@ -33,9 +33,17 @@
 
 .components img{
   position: absolute;
+  height: 100vh;
 }
 
 .home-list li:hover{
   background-color: #8A4C9F;
   border: none;
+}
+
+.home-content{
+  top: 250px;
+  text-align: center;
+  position: relative;
+  color: white;
 }
