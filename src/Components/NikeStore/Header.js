@@ -10,7 +10,7 @@ import Logo from "./Logo/Logo";
 import Cart from './Cart/Cart';
 import "bootstrap/dist/css/bootstrap.min.css"
 
-const Header = () => {
+const Nikestore = () => {
 
     const [show, setShow] = useState(true);
     const [cart, setCart] = useState([]);
@@ -55,7 +55,7 @@ return (
 )
 }
 
-export default Header;
+export default Nikestore;
 
 
 

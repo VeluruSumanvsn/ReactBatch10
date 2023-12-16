@@ -1,14 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Components/Home/Home';
-import Header from './Components/Header/Header';
+import Nikestore from './Components/NikeStore/Header';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import Body from './Components/Body/Body';
 import List from './Components/List/List';
 import Gallery from './Components/Gallery/Gallery';
-import Homepage from "./Components/Home/Homepage"
-import BillingForm from './Components/Header/Billing/Billing';
+import BillingForm from './Components/NikeStore/Billing/Billing';
 
 function App(){ 
   return(
@@ -17,7 +16,7 @@ function App(){
     
       <Routes>
       <Route path='/' element={<Home />}/>{/* sujith */}
-        <Route path='/header' element={<Header />}/>{/* sujith */}
+        <Route path='/Nikestore' element={<Nikestore />}/>{/* sujith */}
         <Route path='/navbar' element={<Navbar />}/>  {/* surendra */}
         <Route path='/footer' element={<Footer />}/>{/*Surekha */}
         <Route path='/body' element={<Body />}/> {/* Jyothi*/}

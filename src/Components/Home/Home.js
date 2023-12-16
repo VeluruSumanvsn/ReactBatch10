@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
-// import Homepage from "./Homepage"
 import bgimg from "../../Assets/1.png";
 
 const Header = () => {
@@ -13,8 +12,8 @@ const Header = () => {
       <div className="home">
         <ul className="home-list">
           <li>
-            <Link className="text-link" to="/header">
-              Header
+            <Link className="text-link" to="/Nikestore">
+              Nikestore
             </Link>
           </li>
           <li>

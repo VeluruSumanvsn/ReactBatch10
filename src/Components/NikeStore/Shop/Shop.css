@@ -2,7 +2,7 @@
   width: 100%;
   text-align: center;
   margin-bottom: 50px;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .shop hr {
   width: 80%;
@@ -25,7 +25,7 @@
   flex-wrap: wrap;
   z-index: 1;
   position: absolute;
-  top: 785px;
+  top: 750px;
   
 }
 
