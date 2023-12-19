@@ -3,7 +3,7 @@
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: rgb(209, 203, 215);
+  background-color: #9294A7;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -23,6 +23,8 @@
   padding: 8px;
   margin-bottom: 16px;
   box-sizing: border-box;
+  border-radius: 10px;
+  border: none;
 }
 .login-container button {
   background-color: rgb(19, 76, 109);
@@ -32,7 +34,7 @@
   border-radius: 4px;
   cursor: pointer;
   width: 100%;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: bold;
   border-radius: 50px;
 }
