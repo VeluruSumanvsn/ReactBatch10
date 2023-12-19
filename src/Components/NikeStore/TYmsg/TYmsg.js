@@ -1,8 +1,8 @@
 import React from "react";
-import "./Logo.css";
+import "./TYmsg.css";
 
 
-const Logo = () => {
+const TYmsg = () => {
   return (
     <>
       <div className="middle-content">
@@ -12,4 +12,4 @@ const Logo = () => {
     </>
   )
 }
-export default Logo;
+export default TYmsg;

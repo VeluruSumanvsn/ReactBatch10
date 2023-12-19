@@ -6,7 +6,7 @@ import Address from './Address/Address';
 import Newsletter from './Newsletter/Newsletter';
 import NavbarHeader from './NavbarHeader/NavbarHeader';
 import Shop from './Shop/Shop';
-import Logo from "./Logo/Logo";
+import TYmsg from "./TYmsg/TYmsg";
 import Cart from './Cart/Cart';
 import "bootstrap/dist/css/bootstrap.min.css"
 
@@ -49,7 +49,7 @@ return (
     }
     <Loginbanner />
     <Newsletter />
-    <Logo />
+    <TYmsg />
     <Address />
     </>
 )

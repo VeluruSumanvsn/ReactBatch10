@@ -3,23 +3,23 @@
   height: 100vh;
   place-items: center;
   position: relative;
+  padding-top: 30px;
 }
 
-
 .home-list{
+  padding: 0;
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-top: 30px;
-  
 }
+
 .home-list li{
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   background-color: transparent;
   box-shadow: 0 0 5px rgba(0,0,0,0.5);
   padding: 5px;
-  width: 140px;
+  width: 160px;
   height: 60px;
   text-align: center;
   font-weight: bold;
@@ -29,6 +29,7 @@
 .text-link {
   text-decoration: none;
   color: #37E4DE;
+
 }
 
 .components img{

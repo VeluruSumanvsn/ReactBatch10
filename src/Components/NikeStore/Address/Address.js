@@ -5,10 +5,10 @@ function Address() {
   return (
     <>
       <div className="address-bar">
-        <p>Visit us at:</p>
-        <p>60 Feet Road, R.T.C Depo</p>
-        <p>India,AndhraPradesh,Ongole-523001, contact-0859-236-652.</p>
-        <p>Copy rights 2023. All Rights Reserverd.</p>
+        <h3>Visit Us at:</h3>
+        <p>60 Feet Road, R.T.C Depo, Ongole</p>
+        <p>AndhraPradesh, India. Pin-523001, Contact: 0859-236-652.</p>
+        <p>Copyrights 2023. All Rights Reserverd.</p>
       </div>
     </>
   );
