@@ -1,27 +1,18 @@
-import "./Body.css";
-import logo from "../../Assets/logo192.png";
-import React from "react";
-import { Link } from "react-router-dom";
+import React,{useRef} from "react";
 
 
 const Body = () => {
-  return (
-    <>
-      <div className="body">
-        {/* Keep the below home button some where in your page to come back to home page!! */}
-      <Link className='text-link' to='/'>Home</Link>
-        <div className="body-content">
-          <img src={logo} alt="React-logo" />
-          <h2>React</h2>
-          <p>The library for web and native user interfaces</p>
+  const inputRef = useRef(null);
+
+  const handleClick = () =>{
+    inputRef.current.focus();
+  }
+    return (
+        <div>
+            <input type="text" ref={inputRef}/>
+            <button onClick={handleClick}>Click</button>
         </div>
-        <div className="body-buttons">
-          <button id="b1">Learn React</button>
-          <button id="b2">API Reference</button>
-        </div>
-      </div>
-    </>
-  );
+    )
 };
 
 export default Body;

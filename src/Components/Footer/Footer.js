@@ -1,23 +1,35 @@
 import React,{Component} from "react";
-import SubFooter from "./SubFooter";
-import { Link } from "react-router-dom";
-
 class Footer extends Component{
     constructor(props){
         super(props);
         this.state ={
-            name: "SALAAR"
+            data: false,
         }
     }
+
+    componentDidMount(){
+        fetch('https://jsonplaceholder.typicode.com/photos')
+        .then((response) => response.json())
+        .then(data =>{
+            this.setState({
+                data: data
+            })
+        })
+    }
+
 render(){
+    const {data} = this.state;
     return(
         <div>
-            {/* <h1>Class Based Component</h1>
-            <h2>{this.state.name}</h2>
-            <button onClick={()=> this.setState({name: "KGF"})}>Add</button> */}
-            {/* Keep this home button some where in your page to come back to home page!! */}
-      <Link className='text-link' to='/'>Home</Link>
-            <SubFooter name="Good Morning"/>
+          {data && (
+            <div className="row">
+                {data.map(item =>(
+                    <div className="col-md-3">
+                   <img src={item.thumbnailUrl}/>
+                   </div>
+                ))}
+            </div>
+          )}
         </div>
     )
 }
