@@ -1,17 +1,13 @@
-import React, { useCallback, useState } from "react";
-
+import React from "react";
+import { Provider } from "react-redux";
+import UserList from '../UserList';
+import store from "../Redux/store";
 
 function Practice() {
-  const[count, setCount] = useState(0);
-
-  const handleClick = useCallback(() =>{
-    setCount(count + 1);
-  },[count])
   return (
-    <>
-      <p>{count}</p>
-      <button onClick={handleClick}>Increment</button>
-    </>
+   <Provider store={store}>
+    <UserList />
+   </Provider>
   );
 }
 
